@@ -1,0 +1,21 @@
+implement better file upload from jqueryupload folder
+
+generate data graph with range from date input
+
+finalize script that disects log files and stores into mysql -> or find effective alternative method
+
+!-- very important: mikrotik web proxy is not forwarding client ip to apache, apache only records webproxy ip, request for graph to be populated with data used per user is hence not possible, 
+        will have to find alternative->mikrotik will not implement client ip fwding
+
+create script to manage this website's "file upload" file(s), seed table, xfer and notify client
+
+find effective way to retreive wifi stats of node -> eg netflow
+
+link  cpu graph values to that of actual cpu and do same for other graphs-> currently using random values for display purposes
+
+create table view of last few entires making up graphs to be displayed below graphs
+
+
+move individual mysql selects to post login and store data in session - or find a better way to handle data
+
+implement security
